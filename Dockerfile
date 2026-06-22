@@ -1,6 +1,9 @@
-FROM python:3.12-slim
+FROM node:20-alpine
 WORKDIR /app
-COPY app/requirements.txt ./requirements.txt
-RUN pip install -r requirements.txt
-COPY app/ .
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8080"]
+COPY package*.json ./
+RUN npm ci
+COPY src/ ./src/
+COPY tsconfig.json .
+RUN npm run build
+EXPOSE 8080
+CMD ["node", "dist/index.js"]
