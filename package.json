@@ -1,0 +1,12 @@
+{
+  "name": "ember",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r run dev",
+    "build": "pnpm -r run build",
+    "start": "pnpm -r run start"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}

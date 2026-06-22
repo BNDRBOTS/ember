@@ -1,0 +1,522 @@
+[
+  {
+    "path": ".env.example",
+    "bytes": 647,
+    "sha256": "bd5e63b028ea4710bede5e3835552ac692f3d87ea5169a731fc15d8dbd5c1f77"
+  },
+  {
+    "path": ".github/workflows/ci.yml",
+    "bytes": 220,
+    "sha256": "6a31c673fbeabc011768cb5c61023501c8a6bca9165a98c145cc20990e0b145c"
+  },
+  {
+    "path": ".github/workflows/deploy.yml",
+    "bytes": 1295,
+    "sha256": "918976e407a63cdf6eaebcabd37bf611ea7bce1ab5d9a6468283d0396900ae3e"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 49,
+    "sha256": "e63847f320a481008c5e62755a84d8f77f1c5433c483b3105a5d85032cad1fca"
+  },
+  {
+    "path": "FREEZE_MANIFEST.json",
+    "bytes": 14569,
+    "sha256": "21e1ee735a8f4736c4c8aa1d7b64b02dd220fd75683b3bc57adb0c62b22c142b"
+  },
+  {
+    "path": "apps/web/Dockerfile",
+    "bytes": 134,
+    "sha256": "d29919315397c104163d279055cce9a8e705a79bfeb2bf9d9b7718c5ad9cc8f2"
+  },
+  {
+    "path": "apps/web/next-env.d.ts",
+    "bytes": 262,
+    "sha256": "85ae5aee75f011967cf2d25cbc342f62d69314e9d925f7f4aa3456fc2cffcca6"
+  },
+  {
+    "path": "apps/web/next.config.js",
+    "bytes": 432,
+    "sha256": "e2143b52a12f7bb7ce031304b9bac971823634fdf49bd5075c594f0b71c5967f"
+  },
+  {
+    "path": "apps/web/package-lock.json",
+    "bytes": 37823,
+    "sha256": "bf28f859d52d7f00e26d164785c3f4ba517f880f626365f9fdca65123426a944"
+  },
+  {
+    "path": "apps/web/package.json",
+    "bytes": 499,
+    "sha256": "b68e2d80da94b799e62ff34e247974dfd285c85bcbf68fd7e6bb811e524dff20"
+  },
+  {
+    "path": "apps/web/public/icons/icon-192.png",
+    "bytes": 880,
+    "sha256": "ded81ade70dbc48a24b2d646a9b9aca90ba6ff600b14beae0f7592eabb7db971"
+  },
+  {
+    "path": "apps/web/public/icons/icon-512.png",
+    "bytes": 2495,
+    "sha256": "0bdcfbf4e5bb6ae90aec64fde41ffaa36e0650cbecf2a9cde7f59a1e3c0f679a"
+  },
+  {
+    "path": "apps/web/public/manifest.json",
+    "bytes": 340,
+    "sha256": "89e9f23b44b67e49f1f6f01a6f31e5c365a1c5a12fd139bcc07d82b53162e829"
+  },
+  {
+    "path": "apps/web/public/sw.js",
+    "bytes": 282,
+    "sha256": "88c490341ae6fb5fd6fcaa0565c5c54942122d956de328ae774f3ae46fae960d"
+  },
+  {
+    "path": "apps/web/src/app/api/v1/[...path]/route.ts",
+    "bytes": 996,
+    "sha256": "af484da54accfd4ff27ee08c51e313f4b5494c66e85ecd22b5c054aff4fef6b0"
+  },
+  {
+    "path": "apps/web/src/app/dashboard/analytics/page.tsx",
+    "bytes": 612,
+    "sha256": "162bfb9ea2421ecb6d9e5c262dca16a5acddf03cc306dc633d1e8e2ae11dbb60"
+  },
+  {
+    "path": "apps/web/src/app/dashboard/brand/page.tsx",
+    "bytes": 1362,
+    "sha256": "2f2ae9c03a1b60ab96b6caa3e283033955a5d61668428eda265e9240982041df"
+  },
+  {
+    "path": "apps/web/src/app/dashboard/calendar/page.tsx",
+    "bytes": 1691,
+    "sha256": "57368300b2d616b0bc9382fb355f103e9fffe968f58eaeada1db9699e621a504"
+  },
+  {
+    "path": "apps/web/src/app/dashboard/layout.tsx",
+    "bytes": 1079,
+    "sha256": "0a008030d852bff000e86552d59eebc87edfa6495f79d9b2988538c2f673a2bf"
+  },
+  {
+    "path": "apps/web/src/app/dashboard/settings/page.tsx",
+    "bytes": 967,
+    "sha256": "911055108ce18cea0f7a580cd763892b45419b90e896fc7fb0e700c2612aae9d"
+  },
+  {
+    "path": "apps/web/src/app/error.tsx",
+    "bytes": 340,
+    "sha256": "243680172557b81a80d68047515f10a57d4adb1a2eb3914e415c11199fd1e0ae"
+  },
+  {
+    "path": "apps/web/src/app/globals.css",
+    "bytes": 45,
+    "sha256": "b207f4cc3ba74949a2871e103a7c2bc63b7cf01a9333005b7716b940a7bc5db7"
+  },
+  {
+    "path": "apps/web/src/app/layout.tsx",
+    "bytes": 482,
+    "sha256": "8478d189f2074d6d83144098193ea8885d8541b4d64521aa94e3191e7ef061c1"
+  },
+  {
+    "path": "apps/web/src/app/loading.tsx",
+    "bytes": 94,
+    "sha256": "bdb82039454e65fc42966a459f5bbf032a607a5b7111bd502e0ba57316cdbab8"
+  },
+  {
+    "path": "apps/web/src/app/login/page.tsx",
+    "bytes": 970,
+    "sha256": "e3195e26ad45c37fc5ab7228cfcc0837b707788497b0fba0c5e10ee4b0d69c76"
+  },
+  {
+    "path": "apps/web/src/app/onboarding/page.tsx",
+    "bytes": 1227,
+    "sha256": "45c72dae9cf4ba582f5a8c417c0f1779e1790adc45bbd55b93f766e326e1e104"
+  },
+  {
+    "path": "apps/web/src/app/page.tsx",
+    "bytes": 115,
+    "sha256": "17ce3b748fa243627e35e7ac43cb2e6fd7866dd5be8e70ebb7e6104e322c1559"
+  },
+  {
+    "path": "apps/web/src/app/register/page.tsx",
+    "bytes": 1070,
+    "sha256": "21b51f733edc8af24a6b9cde8779581e8d68358162b82b3dd208561e626277c1"
+  },
+  {
+    "path": "apps/web/src/components/Calendar.tsx",
+    "bytes": 709,
+    "sha256": "4d5b1ea14040cb8103832d5cd1056d4315b094377ce374230a414451f6dea5bf"
+  },
+  {
+    "path": "apps/web/src/components/PostEditor.tsx",
+    "bytes": 1948,
+    "sha256": "9cd53755d873f2831fa42071e6337032ba5e903df2d58b654b9a9fbad40b3652"
+  },
+  {
+    "path": "apps/web/src/components/providers.tsx",
+    "bytes": 342,
+    "sha256": "ee92a48633dce5a02fb387c0aade78787c109682fd1fa768d0eaa806420ecf83"
+  },
+  {
+    "path": "apps/web/src/lib/api.ts",
+    "bytes": 347,
+    "sha256": "3b0e5e2d6db0d6a4682b043b73e7dfd50d0ec4b40b238be50581559161291b99"
+  },
+  {
+    "path": "apps/web/src/lib/auth.ts",
+    "bytes": 389,
+    "sha256": "92b038001465e328f60288e42f419a5a3057b4647dea4074a0439bba14ef1e3a"
+  },
+  {
+    "path": "apps/web/src/lib/offline-queue.ts",
+    "bytes": 1417,
+    "sha256": "07f16ee25f05605a297af223e00307976659424727e8d26e965e8b3e6e534ef2"
+  },
+  {
+    "path": "apps/web/src/middleware.ts",
+    "bytes": 629,
+    "sha256": "79bb2120ef816155e36afddbe468f9bc2768ebecc6269faf1b3d28712624f4ca"
+  },
+  {
+    "path": "apps/web/src/stores/ui-store.ts",
+    "bytes": 431,
+    "sha256": "70ba944024750ffff13948d86fb70d80c9401cadb17b22bee296e8be8cd57f83"
+  },
+  {
+    "path": "apps/web/src/types/index.ts",
+    "bytes": 163,
+    "sha256": "a6c26a724aafc4d118a611160434b0c4f693a90b7e9b028c50b72c455f34aa82"
+  },
+  {
+    "path": "apps/web/tsconfig.json",
+    "bytes": 771,
+    "sha256": "88777bdf437cb6cb1b0e908ec853434620800dcaaae5671b80bc94c63fb39e12"
+  },
+  {
+    "path": "argocd/app.yaml",
+    "bytes": 362,
+    "sha256": "dc5da6893bcc54c91ec8c3af0eb7777cb00a3a3500460f7520b948b026f336da"
+  },
+  {
+    "path": "docker-compose.yml",
+    "bytes": 2336,
+    "sha256": "d703940953b77d7e66093483db5a157f638bf82127f86a7928b1f7c146f72f61"
+  },
+  {
+    "path": "k8s/configmap.yaml",
+    "bytes": 444,
+    "sha256": "070c8b6dd7810f2e7d5b58403eefda5eba7d6fa0370ac179bc88899608e70222"
+  },
+  {
+    "path": "k8s/deployment-api.yaml",
+    "bytes": 894,
+    "sha256": "14c9e0a498e1ba114a1628de1d9f3afd1a4017b74f9853e5c3d152d85fdc1fed"
+  },
+  {
+    "path": "k8s/deployment-web.yaml",
+    "bytes": 566,
+    "sha256": "ef2697ff815acc29c2461c33cc024019e77c798b41fe97bc23b89be898d68e27"
+  },
+  {
+    "path": "k8s/deployment-workers.yaml",
+    "bytes": 1182,
+    "sha256": "730bbcd9f50cc891c9a1fe70a4b326b004d203a5e87ef54f4514442cd3211056"
+  },
+  {
+    "path": "k8s/ingress.yaml",
+    "bytes": 584,
+    "sha256": "0e20b97e102f07fa3cad422062acc7a441b35c048a81ae0092ae2ecd3d02446a"
+  },
+  {
+    "path": "package.json",
+    "bytes": 213,
+    "sha256": "1133be3fcf47aece4e57db8baea8aac8de175618922634e70a108ce8737e096a"
+  },
+  {
+    "path": "packages/anti-detection-proxy/Dockerfile",
+    "bytes": 195,
+    "sha256": "e476bf816ec61a65429fcbb148006938753b6af935d0be3e0d331d0667327d00"
+  },
+  {
+    "path": "packages/anti-detection-proxy/README.md",
+    "bytes": 123,
+    "sha256": "9666e14195aaeec005ea4e4bae3416de203e2abb128a2f62ab4a8ec46429fdc8"
+  },
+  {
+    "path": "packages/anti-detection-proxy/app/main.py",
+    "bytes": 295,
+    "sha256": "357d330e73a9fcaf640d68af40bc1e9fa2bfd55af1318d8e09896a725d211d72"
+  },
+  {
+    "path": "packages/anti-detection-proxy/app/proxy.py",
+    "bytes": 526,
+    "sha256": "a25c1924d4a670f6014aed2b204fceac4769ead5909f81b23cc9a8b5272700d6"
+  },
+  {
+    "path": "packages/anti-detection-proxy/app/requirements.txt",
+    "bytes": 49,
+    "sha256": "5ce4c3ebaa2445ad20f106de4bfc610cb0802908efc0c2313900a1a01fb4f5c4"
+  },
+  {
+    "path": "packages/api/Dockerfile",
+    "bytes": 164,
+    "sha256": "8c0e214a23fed7681038a29754c38df0be2f22c9546ae810e9f00140909259f0"
+  },
+  {
+    "path": "packages/api/package-lock.json",
+    "bytes": 104362,
+    "sha256": "176cb27b84dbb8ca0227947e95a5b0eeeb0037369e61a7c79d6026a906bf1b9f"
+  },
+  {
+    "path": "packages/api/package.json",
+    "bytes": 674,
+    "sha256": "3dcd16db82f26b8f3ee68f5febce3da034779e91f05329c1c0bfc0c2ac6f2112"
+  },
+  {
+    "path": "packages/api/src/db/index.ts",
+    "bytes": 119,
+    "sha256": "b454149f62cc70db1c9488df16dc95ba0075cd89e032816c3d61cc4f7ba01582"
+  },
+  {
+    "path": "packages/api/src/db/migrate.ts",
+    "bytes": 639,
+    "sha256": "7eda92765b0f89e568f613d2f40de7da5a7037c40be94654c2f7df611c5fabde"
+  },
+  {
+    "path": "packages/api/src/db/migrations/001_init.sql",
+    "bytes": 2287,
+    "sha256": "92a830885cdbdb3fd2031308133ebe848aa7a956199b2e0be16024be27fa5ba3"
+  },
+  {
+    "path": "packages/api/src/index.ts",
+    "bytes": 1409,
+    "sha256": "46a5828eb6150ccf55961501a1029a1c0ec527926e68b446d5131571af9c4bbc"
+  },
+  {
+    "path": "packages/api/src/plugins/jwt.ts",
+    "bytes": 480,
+    "sha256": "e68ba049207968d1a19ebbf10ab2be76623ecec6e0000bdc00ffe181d6e8db6a"
+  },
+  {
+    "path": "packages/api/src/plugins/queues.ts",
+    "bytes": 401,
+    "sha256": "bb16c33ee0c3ff9b2034a7da6cf783cdb55efc488c44e61b000e8b38a02c562c"
+  },
+  {
+    "path": "packages/api/src/plugins/rate-limit.ts",
+    "bytes": 231,
+    "sha256": "c7d974bc02314c8a282b436db6036142ce8b82d80982fc5f1a233ba45f4efc76"
+  },
+  {
+    "path": "packages/api/src/plugins/websocket.ts",
+    "bytes": 275,
+    "sha256": "33b2bcc36a55a0de97302ebffec89c17a10436bb293da89b24d67311112c9035"
+  },
+  {
+    "path": "packages/api/src/routes/analytics.ts",
+    "bytes": 824,
+    "sha256": "b592786c337af41fbff4c4810bba398a9dbd26088a82fd8091d28da5aaba3579"
+  },
+  {
+    "path": "packages/api/src/routes/auth.ts",
+    "bytes": 1440,
+    "sha256": "79670e9bc4b816987f4590eb542a9066b63d140a4422e3a2b9897759e26022d9"
+  },
+  {
+    "path": "packages/api/src/routes/brand.ts",
+    "bytes": 2008,
+    "sha256": "33835144aa8f02a089e854a3e7d31cb5cdf2a39651f157fc3fa37f6e852db28f"
+  },
+  {
+    "path": "packages/api/src/routes/calendar.ts",
+    "bytes": 2886,
+    "sha256": "997befdbfcbd5f55ee05368606103d57bc1c10c82f22f673a6f9e0905d0b4c02"
+  },
+  {
+    "path": "packages/api/src/routes/integrations.ts",
+    "bytes": 5120,
+    "sha256": "b0af0f8e60b144ad5c7596912f01d0e3f0f1deba33118cdd32c6922554513557"
+  },
+  {
+    "path": "packages/api/src/routes/publish.ts",
+    "bytes": 697,
+    "sha256": "042f4810efb2800609be5fabd571c828f59f80de871a31b41835e504f6995187"
+  },
+  {
+    "path": "packages/api/src/services/analytics.ts",
+    "bytes": 891,
+    "sha256": "0da35df8e41edfbfa1aee873b16976b36d77e9821356f2aaba944304a08f20b6"
+  },
+  {
+    "path": "packages/api/src/services/content-gen.ts",
+    "bytes": 615,
+    "sha256": "46e04125b8d9b83cf1c34af28d845b9e425da6630f3bd9de727714761b3f43e0"
+  },
+  {
+    "path": "packages/api/src/services/crypto.ts",
+    "bytes": 969,
+    "sha256": "907e541f347706484a6e782f33fa229f35481c8f82f10f6ab060dc91629d1463"
+  },
+  {
+    "path": "packages/api/src/services/media.ts",
+    "bytes": 3668,
+    "sha256": "2b7c9d60adc1c8b30798157d6b4083fb72c24e1553ec44e0f6230f2012497c81"
+  },
+  {
+    "path": "packages/api/src/services/publisher.ts",
+    "bytes": 597,
+    "sha256": "90a0435350a6d9b839375b3a5cd0be321b34132b1f5bde482c3e7bb4b3eb4dc1"
+  },
+  {
+    "path": "packages/api/src/services/user.ts",
+    "bytes": 1214,
+    "sha256": "0a8069ab3af098e9ef4c1d236073c0857f20314dea3bb07629987fed0bf7a2dc"
+  },
+  {
+    "path": "packages/api/src/types/fastify.d.ts",
+    "bytes": 398,
+    "sha256": "4e54ab35705a2e41231d7284b01c5d999460840c93c898693cc8d8389b821205"
+  },
+  {
+    "path": "packages/api/tsconfig.json",
+    "bytes": 358,
+    "sha256": "5fa0f38c3e6f3288f747eea0f7f6b4e696b335b9fca159327e39a6bf3e6250cd"
+  },
+  {
+    "path": "pnpm-workspace.yaml",
+    "bytes": 56,
+    "sha256": "97fbcb2cc54dcabf65fde54a8cdc8311d124810885033c47ede1f5ffecbebaff"
+  },
+  {
+    "path": "workers/content-generator/Dockerfile",
+    "bytes": 152,
+    "sha256": "c4e870b0c83e05c3bb29fe5af571563d01298f6d0545cca0bebc3b975dd09cb2"
+  },
+  {
+    "path": "workers/content-generator/package-lock.json",
+    "bytes": 60368,
+    "sha256": "2c18bda4266be101ff006bf2ef9119d65f355e44a9f9b812a30aa68d11407360"
+  },
+  {
+    "path": "workers/content-generator/package.json",
+    "bytes": 507,
+    "sha256": "18c9303f655b271434942efefe925744ce64a627f4fba853631c5cbb4bd34342"
+  },
+  {
+    "path": "workers/content-generator/src/ai-clients/claude.ts",
+    "bytes": 552,
+    "sha256": "feefbceef392d305606890e68c6ab505856fa273e23cf40d050b3d06f0fa228f"
+  },
+  {
+    "path": "workers/content-generator/src/ai-clients/gpt4-turbo.ts",
+    "bytes": 455,
+    "sha256": "46f5621d97ea434c0773b357f4710cb3ad1742ff408a797c0d680a147e28f57d"
+  },
+  {
+    "path": "workers/content-generator/src/ai-clients/llama-runpod.ts",
+    "bytes": 531,
+    "sha256": "51bb7bde4de80f02afd4c4f021658771637be54f4b9c3814d9be5a823ba1b31f"
+  },
+  {
+    "path": "workers/content-generator/src/anti-detection-client.ts",
+    "bytes": 446,
+    "sha256": "abbdd646a5c6e4dca5066398148ad2b24b81d896cc3951533aa9152bba93f421"
+  },
+  {
+    "path": "workers/content-generator/src/index.ts",
+    "bytes": 5025,
+    "sha256": "e0210019ea1bb1df323b0134cd0143b3759b937d62b95bff52be9db36914b553"
+  },
+  {
+    "path": "workers/content-generator/src/orchestrator.ts",
+    "bytes": 699,
+    "sha256": "f03ee661e4f3be9a339157655deeea60202d4242b1742931a6b760ac6f1e49dd"
+  },
+  {
+    "path": "workers/content-generator/tsconfig.json",
+    "bytes": 312,
+    "sha256": "244a8fb6308981d7dd789424b79969ff104c549fa0e14a7962ca953c6587a8ce"
+  },
+  {
+    "path": "workers/publisher/Dockerfile",
+    "bytes": 152,
+    "sha256": "c4e870b0c83e05c3bb29fe5af571563d01298f6d0545cca0bebc3b975dd09cb2"
+  },
+  {
+    "path": "workers/publisher/package-lock.json",
+    "bytes": 40199,
+    "sha256": "677285a0f12b3a4e2c9ccafa040ad74977e5edd25649f570c10d4654478d9259"
+  },
+  {
+    "path": "workers/publisher/package.json",
+    "bytes": 416,
+    "sha256": "e42c070b48d3f346e1c6fbe5f195b69a3fa1c1d81c9edda3a51f1895d6c67725"
+  },
+  {
+    "path": "workers/publisher/src/adapters/facebook.ts",
+    "bytes": 415,
+    "sha256": "bbc4195f414342efc4e6a57adaa9b9a31da676637e60b143f0f3e452ee76a008"
+  },
+  {
+    "path": "workers/publisher/src/adapters/index.ts",
+    "bytes": 889,
+    "sha256": "7ddaf9064ca985406d017db232723277c957d212f823a8c52283360345685720"
+  },
+  {
+    "path": "workers/publisher/src/adapters/linkedin.ts",
+    "bytes": 826,
+    "sha256": "59cc258dde1183cfdbdd4db95c2845ce630a1a32075777585315602cdd32d437"
+  },
+  {
+    "path": "workers/publisher/src/adapters/pinterest.ts",
+    "bytes": 591,
+    "sha256": "7220a3f265ff04e51a83383983873f07f52919b64c1f78fdb51f7fce8ddce14b"
+  },
+  {
+    "path": "workers/publisher/src/adapters/tiktok.ts",
+    "bytes": 443,
+    "sha256": "0bc035e54b0aef9d48d13a52ecc51c7d32f680c84adb37eaaaf75541c1ef9c4b"
+  },
+  {
+    "path": "workers/publisher/src/adapters/twitter.ts",
+    "bytes": 475,
+    "sha256": "829a092ce679fe24a2341f2128fa80ba70f8e0fc5a3edc0e31b02c7b1525341d"
+  },
+  {
+    "path": "workers/publisher/src/index.ts",
+    "bytes": 1925,
+    "sha256": "577eaae7fb5149f397ccc88ad21276351208e2901c519cba067d2b8df4bf7285"
+  },
+  {
+    "path": "workers/publisher/tsconfig.json",
+    "bytes": 312,
+    "sha256": "244a8fb6308981d7dd789424b79969ff104c549fa0e14a7962ca953c6587a8ce"
+  },
+  {
+    "path": "workers/scheduler/Dockerfile",
+    "bytes": 152,
+    "sha256": "c4e870b0c83e05c3bb29fe5af571563d01298f6d0545cca0bebc3b975dd09cb2"
+  },
+  {
+    "path": "workers/scheduler/package-lock.json",
+    "bytes": 40689,
+    "sha256": "ab2dbc609a1a6cabdbd38ecafdaa1b7c01b287935bfa5e6fe73b77570cc61354"
+  },
+  {
+    "path": "workers/scheduler/package.json",
+    "bytes": 442,
+    "sha256": "55b64446e0fec349638f5d77de1b1414257d6f5f05983e063621dc12aa34d0ea"
+  },
+  {
+    "path": "workers/scheduler/src/index.ts",
+    "bytes": 225,
+    "sha256": "c9c5560b0d0c6659be6d79107d496681d8a9483a73cd1536ee1543eb634e7c26"
+  },
+  {
+    "path": "workers/scheduler/src/scheduler.ts",
+    "bytes": 2801,
+    "sha256": "0319c0900fc1a49d20880018bbab247d83dfd5ad676ab5f0ca59cec06a26279b"
+  },
+  {
+    "path": "workers/scheduler/tsconfig.json",
+    "bytes": 312,
+    "sha256": "244a8fb6308981d7dd789424b79969ff104c549fa0e14a7962ca953c6587a8ce"
+  }
+]

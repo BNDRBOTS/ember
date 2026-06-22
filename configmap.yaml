@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ember-config
+data:
+  DATABASE_URL: "postgres://ember:password@postgres-service:5432/ember"
+  REDIS_URL: "redis://redis-service:6379"
+  JWT_SECRET: "supersecretjwtkey"
+  BASE_URL: "https://ember.example.com"
+  WEB_BASE_URL: "https://ember.example.com"
+  ANTI_DETECTION_URL: "http://anti-detection-service:8080"
+  ENCRYPTION_KEY: "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"

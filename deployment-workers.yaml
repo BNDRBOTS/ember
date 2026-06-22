@@ -1,0 +1,62 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ember-content-gen
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      worker: content-gen
+  template:
+    metadata:
+      labels:
+        worker: content-gen
+    spec:
+      containers:
+      - name: content-gen
+        image: ghcr.io/yourorg/ember-content-gen:latest
+        envFrom:
+        - configMapRef:
+            name: ember-config
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ember-publisher
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      worker: publisher
+  template:
+    metadata:
+      labels:
+        worker: publisher
+    spec:
+      containers:
+      - name: publisher
+        image: ghcr.io/yourorg/ember-publisher:latest
+        envFrom:
+        - configMapRef:
+            name: ember-config
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ember-scheduler
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      worker: scheduler
+  template:
+    metadata:
+      labels:
+        worker: scheduler
+    spec:
+      containers:
+      - name: scheduler
+        image: ghcr.io/yourorg/ember-scheduler:latest
+        envFrom:
+        - configMapRef:
+            name: ember-config

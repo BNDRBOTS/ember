@@ -1,0 +1,76 @@
+version: "3.9"
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: ember
+      POSTGRES_USER: ember
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  redis:
+    image: redis:7-alpine
+  anti-detection:
+    build: ./packages/anti-detection-proxy
+  api:
+    build: ./packages/api
+    ports:
+      - "8080:8080"
+    environment:
+      DATABASE_URL: postgres://ember:secret@postgres:5432/ember
+      REDIS_URL: redis://redis:6379
+      JWT_SECRET: supersecure
+      BASE_URL: http://localhost:8080
+      WEB_BASE_URL: http://localhost:3000
+      ENCRYPTION_KEY: 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+      DROPBOX_CLIENT_ID: ${DROPBOX_CLIENT_ID}
+      DROPBOX_CLIENT_SECRET: ${DROPBOX_CLIENT_SECRET}
+      CANVA_CLIENT_ID: ${CANVA_CLIENT_ID}
+      CANVA_CLIENT_SECRET: ${CANVA_CLIENT_SECRET}
+      PINTEREST_BOARD_ID: ${PINTEREST_BOARD_ID}
+    depends_on:
+      - postgres
+      - redis
+  content-gen:
+    build: ./workers/content-generator
+    environment:
+      REDIS_URL: redis://redis:6379
+      DATABASE_URL: postgres://ember:secret@postgres:5432/ember
+      ANTI_DETECTION_URL: http://anti-detection:8080
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      RUNPOD_API_KEY: ${RUNPOD_API_KEY}
+      RUNPOD_ENDPOINT: ${RUNPOD_ENDPOINT}
+      ENCRYPTION_KEY: 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+    depends_on:
+      - redis
+      - anti-detection
+  publisher:
+    build: ./workers/publisher
+    environment:
+      REDIS_URL: redis://redis:6379
+      DATABASE_URL: postgres://ember:secret@postgres:5432/ember
+      ENCRYPTION_KEY: 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
+      LINKEDIN_ORG_ID: ${LINKEDIN_ORG_ID}
+      PINTEREST_BOARD_ID: ${PINTEREST_BOARD_ID}
+    depends_on:
+      - redis
+  scheduler:
+    build: ./workers/scheduler
+    environment:
+      REDIS_URL: redis://redis:6379
+      DATABASE_URL: postgres://ember:secret@postgres:5432/ember
+    depends_on:
+      - redis
+  web:
+    build: ./apps/web
+    ports:
+      - "3000:3000"
+    environment:
+      API_GATEWAY_URL: http://api:8080
+    depends_on:
+      - api
+volumes:
+  pgdata:
