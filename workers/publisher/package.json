@@ -1,5 +1,5 @@
 {
-  "name": "@ember/content-generator",
+  "name": "@ember/publisher",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -10,10 +10,7 @@
   "dependencies": {
     "bullmq": "^5.34.0",
     "ioredis": "^5.4.0",
-    "openai": "^4.0.0",
-    "@anthropic-ai/sdk": "^0.30.0",
-    "pg": "^8.13.0",
-    "uuid": "^10.0.0"
+    "pg": "^8.13.0"
   },
   "devDependencies": {
     "tsx": "^4.19.0",
